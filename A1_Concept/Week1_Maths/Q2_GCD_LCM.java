@@ -1,3 +1,4 @@
+package A1_Concept.Week1_Maths;
 public class Q2_GCD_LCM {
     public static int calculateHCF(int a, int b) {
         if (b == 0)

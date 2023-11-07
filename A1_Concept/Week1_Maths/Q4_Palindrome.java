@@ -1,3 +1,4 @@
+package A1_Concept.Week1_Maths;
 public class Q4_Palindrome {
         public static boolean isPalindrome(String str) {
             int left = 0;

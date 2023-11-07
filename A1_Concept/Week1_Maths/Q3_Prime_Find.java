@@ -1,3 +1,4 @@
+package A1_Concept.Week1_Maths;
 public class Q3_Prime_Find {
         public static void main(String[] args) {
             int number = 17;
