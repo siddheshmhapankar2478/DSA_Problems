@@ -25,12 +25,11 @@ class TreeNode {
 
 }
 
-
-
 public class Q10_BT_Zig_Zag_Traversal {
     public static void main(String[] args) {
-        
+
     }
+
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
         Queue<TreeNode> q = new LinkedList<>();

@@ -383,21 +383,20 @@ public class Q1_Tree_Implementation {
     class Solution15 {
         int max = 0;
 
-        public int diameterOfBinaryTree(TreeNode root) {
+        public int heightBT(TreeNode root) {
             if (root == null)
                 return 0;
-            height(root);
-            return max;
-        }
-
-        public int height(TreeNode root) {
-            if (root == null)
-                return 0;
-            int left = height(root.left);
-            int right = height(root.right);
+            if (root.left == null && root.right == null)
+                return 1;
+            int left = heightBT(root.left);
+            int right = heightBT(root.right);
             max = Math.max(max, left + right);
             return 1 + Math.max(left, right);
+        }
 
+        public int diameterOfBinaryTree(TreeNode root) {
+            heightBT(root);
+            return max;
         }
     }
 
@@ -416,18 +415,15 @@ public class Q1_Tree_Implementation {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         if (root1 == null && root2 == null)
             return null;
-        int val1 = (root1 == null) ? 0 : root1.val;
-        int val2 = (root2 == null) ? 0 : root2.val;
-        int val = val1 + val2;
-        TreeNode root3 = new TreeNode(val);
-        TreeNode r1 = (root1 == null) ? null : root1.left;
-        TreeNode r2 = (root2 == null) ? null : root2.left;
-        TreeNode leftBt = mergeTrees(r1, r2);
-        r1 = (root1 == null) ? null : root1.right;
-        r2 = (root2 == null) ? null : root2.right;
-        TreeNode rightBt = mergeTrees(r1, r2);
-        root3.left = leftBt;
-        root3.right = rightBt;
+        if (root1 == null && root2 != null)
+            return root2;
+        if (root1 != null && root2 == null)
+            return root1;
+        int val1 = root1.val;
+        int val2 = root2.val;
+        TreeNode root3 = new TreeNode(val1 + val2);
+        root3.left = mergeTrees(root1.left, root2.left);
+        root3.right = mergeTrees(root1.right, root2.right);
         return root3;
     }
 
