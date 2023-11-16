@@ -1,26 +1,40 @@
 package A2_Questions.Week4_Recursion;
+
 import java.util.Arrays;
 
 public class Q7_Min_Cost_Stairs {
     public static void main(String[] args) {
-        
-    }
-    public int minCostClimbingStairs(int[] cost) {
-        int[] minCost=new int[cost.length];
-        Arrays.fill(minCost,-1);
-        int first=recursion(0,cost,minCost);
-        int second=recursion(1,cost,minCost);
-        return Math.min(first,second);
-	}
-	public int recursion(int index,int[] cost,int[] minCost) {
-        if(index>=cost.length)
-            return 0;
-        if(minCost[index]!=-1)
-            return minCost[index];
-        int op1=recursion(index+1,cost,minCost);
-        int op2=recursion(index+2,cost,minCost);
-        minCost[index]= Math.min(op1,op2)+cost[index];
-        return minCost[index];
 
+    }
+
+    // Method1
+    int[] dp;
+
+    public int recurr(int[] cost, int index) {
+        if (index >= cost.length)
+            return 0;
+        if (dp[index] != -1)
+            return dp[index];
+        int op1 = cost[index] + recurr(cost, index + 1);
+        int op2 = cost[index] + recurr(cost, index + 2);
+        return dp[index] = Math.min(op1, op2);
+    }
+
+    public int minCostClimbingStairs(int[] cost) {
+        dp = new int[cost.length];
+        Arrays.fill(dp, -1);
+        int ans1 = recurr(cost, 0);
+        int ans2 = recurr(cost, 1);
+        return Math.min(ans1, ans2);
+    }
+
+    // Method2
+    public int minCostClimbingStairs2(int[] cost) {
+        int n = cost.length;
+        int[] dp = new int[n + 2];
+        for (int i = n - 1; i >= 0; i--) {
+            dp[i] = cost[i] + Math.min(dp[i + 1], dp[i + 2]);
+        }
+        return Math.min(dp[0], dp[1]);
     }
 }

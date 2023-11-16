@@ -1,12 +1,8 @@
-package A2_Questions.Week4_Recursion;
+package A2_Questions.Week12_DP;
 
 import java.util.Arrays;
 
-public class Q4_Climbing_Stairs {
-    public static void main(String[] args) {
-
-    }
-
+public class Q1_Climbing_Stair {
     // Method1
     int[] dp;
 
@@ -56,4 +52,7 @@ public class Q4_Climbing_Stairs {
         return ans;
     }
 
+    public static void main(String[] args) {
+
+    }
 }
