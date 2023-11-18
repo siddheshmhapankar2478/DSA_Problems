@@ -1,4 +1,4 @@
-package A2_Strings.A2_Strings_Concept_Concept;
+package A2_Strings.A2_Strings_Concept;
 import java.util.Stack;
 
 public class Q2_Remove_Outer {

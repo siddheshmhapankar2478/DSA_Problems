@@ -1,4 +1,4 @@
-package A2_Strings.A2_Strings_Concept_Concept;
+package A2_Strings.A2_Strings_Concept;
 public class Q1_Capitalize_FirstLetter {
     public static void main(String[] args) {
         
