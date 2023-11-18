@@ -1,4 +1,4 @@
-package A7_Stack_Queue.A7_Stack_Q_Questions;
+package A7_Stack_Queue.A7_Stack_Queue_Questions;
 
 import java.util.Stack;
 
