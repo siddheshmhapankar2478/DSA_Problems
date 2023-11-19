@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q1_str",
+            "request": "launch",
+            "mainClass": "A2_Strings.A2_Strings_Questions.Q1_str",
+            "projectName": "DSA_By_MdFraz_37de85eb"
+        },
+        {
+            "type": "java",
             "name": "Q6_Decode_Str",
             "request": "launch",
             "mainClass": "A4_Backtracking.A4_BackTracking_Questions.Q6_Decode_Str",

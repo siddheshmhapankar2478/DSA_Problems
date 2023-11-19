@@ -8,10 +8,6 @@ public class Q6_Decode_Str {
         decodeString(s);
     }
 
-    public static void recursion(Stack stack) {
-
-    }
-
     public static String decodeString(String s) {
         Stack<Character> stack = new Stack<>();
         StringBuilder sb = new StringBuilder("");
@@ -30,7 +26,6 @@ public class Q6_Decode_Str {
                 }
             }
         }
-        recursion(stack);
         return s;
     }
 
