@@ -1,4 +1,4 @@
-package A0_Questions.A10_Graphs_Questions;
+package A10_Graph.A10_Graphs_Questions;
 
 public class Q1_ISland_Perimeter {
     public static void main(String[] args) {
