@@ -1,8 +1,8 @@
-package A08_Tree.A8_Tree_Questions;
+package A06_Linked_List.A6_Linked_List_Questions;
 
 import java.util.HashMap;
 
-public class Q6_Copy_LL {
+public class Q8_Copy_LL {
     class Node {
         int val;
         Node next;

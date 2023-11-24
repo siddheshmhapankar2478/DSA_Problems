@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Q10_Print_Binary_Strings",
+            "request": "launch",
+            "mainClass": "A04_Recursion.A4_Recursion_Questions.Q10_Print_Binary_Strings",
+            "projectName": "DSA_By_MdFraz_37de85eb"
+        },
+        {
+            "type": "java",
             "name": "Q14_Maximum_Product",
             "request": "launch",
             "mainClass": "A05_2D_Arrays.A5_2DAarray_Questions.Q14_Maximum_Product",
