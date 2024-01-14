@@ -16,7 +16,7 @@ public class Q4_Stack {
         stack.push(40);
         stack.push(50);
 
-        // Remove element stacks
+        // Remove element stack
         int element = stack.pop();
         System.out.println("Removed Element: " + element);
 
