@@ -1,0 +1,462 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Q19_Check_Array_Sorted",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q19_Check_Array_Sorted",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_HashSet",
+      "request": "launch",
+      "mainClass": "A00_Java_Collections.Q3_HashSet",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Stack",
+      "request": "launch",
+      "mainClass": "A00_Java_Collections.Q3_Stack",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_HashMap",
+      "request": "launch",
+      "mainClass": "A00_Java_Collections.Q2_HashMap",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Hashmap",
+      "request": "launch",
+      "mainClass": "A00_Java_Collections.Q2_Hashmap",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_ArrayList",
+      "request": "launch",
+      "mainClass": "A00_Java_Collections.Q1_ArrayList",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_PAttern_Example",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q4_PAttern_Example",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q10_Print_Binary_Strings",
+      "request": "launch",
+      "mainClass": "A04_Recursion.A4_Recursion_Questions.Q10_Print_Binary_Strings",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q14_Maximum_Product",
+      "request": "launch",
+      "mainClass": "A05_2D_Arrays.A5_2DAarray_Questions.Q14_Maximum_Product",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q13_Next_Permutation",
+      "request": "launch",
+      "mainClass": "A05_2D_Arrays.A5_2DAarray_Questions.Q13_Next_Permutation",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q7_Merge_Two_Sorted_Array",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Concept.Q7_Merge_Two_Sorted_Array",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Bubble_Example",
+      "request": "launch",
+      "mainClass": "A05_Sorting.A5_Sorting_Concept.Q1_Bubble_Example",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_Pattern_Spaces",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q4_Pattern_Spaces",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Pattern_Alphabets",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q3_Pattern_Alphabets",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Pattern_Numbers",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q2_Pattern_Numbers",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_PatternStars",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q1_PatternStars",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Pattern1",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q1_Pattern1",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_str",
+      "request": "launch",
+      "mainClass": "A2_Strings.A2_Strings_Questions.Q1_str",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q6_Decode_Str",
+      "request": "launch",
+      "mainClass": "A4_Backtracking.A4_BackTracking_Questions.Q6_Decode_Str",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Q1_BFS_Traversal",
+      "request": "launch",
+      "mainClass": "A10_Graph.A10_Graphs_Concept.Q1_BFS_Traversal",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_DFS_Traversal",
+      "request": "launch",
+      "mainClass": "A10_Graph.A10_Graphs_Concept.Q2_DFS_Traversal",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Climbing_Stair",
+      "request": "launch",
+      "mainClass": "A12_DP.A12_DP_Questions.Q1_Climbing_Stair",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_MinCost_Climbing_Stairs",
+      "request": "launch",
+      "mainClass": "A12_DP.A12_DP_Questions.Q2_MinCost_Climbing_Stairs",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "ZeroOneKnapsack",
+      "request": "launch",
+      "mainClass": "A12_DP.A12_DP__Concept.ZeroOneKnapsack",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Divisors",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Concept.Q1_Divisors",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_GCD_LCM",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Concept.Q2_GCD_LCM",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Prime_Find",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Concept.Q3_Prime_Find",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_Palindrome",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Concept.Q4_Palindrome",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Subtract_Product_Sum",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q1_Subtract_Product_Sum",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Min_Sum_of_4_DigitNum",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q2_Min_Sum_of_4_DigitNum",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Count_Digits_That_Divide_Number",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q3_Count_Digits_That_Divide_Number",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_Three_Divisors",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q4_Three_Divisors",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q5_Good_Pair",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q5_Good_Pair",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q6_Missing_Num",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q6_Missing_Num",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q7_Pivot_Int",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q7_Pivot_Int",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q8_GCD_In_Arr",
+      "request": "launch",
+      "mainClass": "A1_Maths.A1_Maths_Questions.Q8_GCD_In_Arr",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Second_Max",
+      "request": "launch",
+      "mainClass": "A2_Arrays.A2_Arrays_Concept.Q1_Second_Max",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Find_Duplicates",
+      "request": "launch",
+      "mainClass": "A2_Arrays.A2_Arrays_Concept.Q2_Find_Duplicates",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Dutch_National_Flag",
+      "request": "launch",
+      "mainClass": "A2_Arrays.A2_Arrays_Concept.Q3_Dutch_National_Flag",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4Kadane_Algo",
+      "request": "launch",
+      "mainClass": "A2_Arrays.A2_Arrays_Concept.Q4Kadane_Algo",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q5_Prefix_SubbArr",
+      "request": "launch",
+      "mainClass": "A2_Arrays.A2_Arrays_Concept.Q5_Prefix_SubbArr",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q6_Majority_Element",
+      "request": "launch",
+      "mainClass": "A2_Arrays.A2_Arrays_Concept.Q6_Majority_Element",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Capitalize_FirstLetter",
+      "request": "launch",
+      "mainClass": "A2_Strings.A2_Strings_Concept_Concept.Q1_Capitalize_FirstLetter",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Remove_Outer",
+      "request": "launch",
+      "mainClass": "A2_Strings.A2_Strings_Concept_Concept.Q2_Remove_Outer",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_AnyBAseToDecimal",
+      "request": "launch",
+      "mainClass": "A3_Number_System.A3_Number_System_Concept.Q1_AnyBAseToDecimal",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_DecimalToAnyBase",
+      "request": "launch",
+      "mainClass": "A3_Number_System.A3_Number_System_Concept.Q2_DecimalToAnyBase",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Single_Num",
+      "request": "launch",
+      "mainClass": "A3_Number_System.A3_Number_System_Concept.Q3_Single_Num",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Subsequence",
+      "request": "launch",
+      "mainClass": "A4_Recursion.A4_Recursion_Concept.Q1_Subsequence",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Subsq_Sum_K",
+      "request": "launch",
+      "mainClass": "A4_Recursion.A4_Recursion_Concept.Q2_Subsq_Sum_K",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_SubSeq_One",
+      "request": "launch",
+      "mainClass": "A4_Recursion.A4_Recursion_Concept.Q3_SubSeq_One",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Subsq_Sum_All",
+      "request": "launch",
+      "mainClass": "A4_Recursion.A4_Recursion_Concept.Q3_Subsq_Sum_All",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_SubSeq_Count",
+      "request": "launch",
+      "mainClass": "A4_Recursion.A4_Recursion_Concept.Q4_SubSeq_Count",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q5_CombinationSum",
+      "request": "launch",
+      "mainClass": "A4_Recursion.A4_Recursion_Concept.Q5_CombinationSum",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_Spiral_Matrix",
+      "request": "launch",
+      "mainClass": "A5_2D_Arrays.A5_2DAarray_Concept.Q1_Spiral_Matrix",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q1_BubbleSort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q1_BubbleSort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Selection_Sort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q2_Selection_Sort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q3_Insertion_Sort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q3_Insertion_Sort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_Final_Merge",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q4_Final_Merge",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q5_Inversions",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q5_Inversions",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q5_Quick_Sort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q5_Quick_Sort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q6_Count_Sort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q6_Count_Sort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q7_Bin_Sort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q7_Bin_Sort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q8_Radix_Sort",
+      "request": "launch",
+      "mainClass": "A5_Sorting.A5_Sorting_Concept.Q8_Radix_Sort",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList$Q1_Linked_List_Implementation",
+      "request": "launch",
+      "mainClass": "A6_Linked_List.A6_Linked_List_Concept.LinkedList$Q1_Linked_List_Implementation",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    }
+  ]
+}
