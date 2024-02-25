@@ -2,7 +2,9 @@ package A02_Arrays.A2_Arrays_Questions;
 
 public class Q11_Pivot_Index {
     public static void main(String[] args) {
-        
+        Q11_Pivot_Index q=new Q11_Pivot_Index();
+		int[] nums={1,7,3,6,5,6};
+		System.out.println(q.pivotIndex(nums));
     }
     public int pivotIndex(int[] nums) {
 		int sum=0,leftsum=0,rightsum=0;

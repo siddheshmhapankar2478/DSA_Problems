@@ -2,7 +2,8 @@ package A02_Arrays.A2_Arrays_Questions;
 
 public class Q12_Max0s1s {
     public static void main(String[] args) {
-        
+        Q12_Max0s1s q=new Q12_Max0s1s();
+		System.out.println(q.getMaxDifference("11000010001"));
     }
     public int getMaxDifference(String s) {
         int count=0,max=Integer.MIN_VALUE;

@@ -2,7 +2,9 @@ package A02_Arrays.A2_Arrays_Questions;
 
 public class Q9Majority_Moore_Algo {
     public static void main(String[] args) {
-        
+        Q9Majority_Moore_Algo q=new Q9Majority_Moore_Algo();
+        int[] nums={3,2,3};
+        System.out.println(q.majorityElement(nums));
     }
     public int majorityElement(int[] nums) {
         int current=0,count=1;

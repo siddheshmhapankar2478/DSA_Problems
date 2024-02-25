@@ -1,0 +1,81 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Q1_Second_Max",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Concept.Q1_Second_Max",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q12_Max0s1s",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q12_Max0s1s",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q22_Max_Consecutive_Ones",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q22_Max_Consecutive_Ones",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q9Majority_Moore_Algo",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q9Majority_Moore_Algo",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q6_Sort_colors",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q6_Sort_colors",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q23_Leaders_in_Array",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q23_Leaders_in_Array",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q18_Rearrange_By_Sign",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q18_Rearrange_By_Sign",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q7_Best_Time_To_Buy",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q7_Best_Time_To_Buy",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q4_Ex",
+      "request": "launch",
+      "mainClass": "A01_Patterns.A1_Patterns_Questions.Q4_Ex",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q2_Move_Zeroes",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q2_Move_Zeroes",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
+      "name": "Q20_Rotate_Array",
+      "request": "launch",
+      "mainClass": "A02_Arrays.A2_Arrays_Questions.Q20_Rotate_Array",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    }
+  ]
+}

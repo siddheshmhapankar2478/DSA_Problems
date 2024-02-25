@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class Q2_Move_Zeroes {
     public static void main(String[] args) {
-        
+        Q2_Move_Zeroes q=new Q2_Move_Zeroes();
+        int[] nums={0,7,0,1,3,2,0,4,5};
+        q.moveZeroes(nums);
     }
     public void moveZeroes(int[] nums) {
         int index=0;
