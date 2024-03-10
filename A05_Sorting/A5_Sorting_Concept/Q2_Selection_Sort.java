@@ -9,18 +9,19 @@ public class Q2_Selection_Sort {
         System.out.println(Arrays.toString(ans));
     }
     public static int[] selection(int[] arr) {
-        for(int i=0;i<=arr.length-2;i++){
-            int minIndex=minFind(i,arr.length-1,arr);
+        int n=arr.length;
+        for(int i=0;i<n-1;i++){
+            int minIndex=minFind(i,n-1,arr);
             swap(i,minIndex,arr);
         }
         return arr;
     }
-    public static int minFind(int i,int j,int[]arr){
-        int min=arr[i],minIndex=i;
-        for(int ind=i;ind<=j;ind++){
-            if(arr[ind]<min){
-                min=arr[ind];
-                minIndex=ind;
+    public static int minFind(int start,int end,int[]arr){
+        int min=Integer.MAX_VALUE,minIndex=-1;
+        for(int i=start;i<=end;i++){
+            if(arr[i]<min){
+                min=arr[i];
+                minIndex=i;
             }
         }
         return minIndex;

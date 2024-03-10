@@ -32,8 +32,4 @@ public class Q16_Delete_Middle {
             prev.next = slow.next;
         return head;
     }
-
-    public static void main(String[] args) {
-
-    }
 }

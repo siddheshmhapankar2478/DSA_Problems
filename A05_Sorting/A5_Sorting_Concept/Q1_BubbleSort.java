@@ -9,14 +9,15 @@ public class Q1_BubbleSort {
         System.out.println(Arrays.toString(ans));
     }
     public static int[] bubbleSort(int[] arr) {
-        int swap_count=0;
-        for(int pass=1;pass<=arr.length-1;pass++){
-            for(int i=0;i<=arr.length-pass-1;i++){
+        int swapCount=0,n=arr.length;
+        for(int pass=1;pass<=n-1;pass++){
+            for(int i=0;i<n-pass;i++){
                 if(arr[i]>arr[i+1]){
                     swap(i,i+1,arr);
+                    swapCount++;
                 }
             }
-            if(swap_count==0)
+            if(swapCount==0)
                 break;
         }
         return arr;
