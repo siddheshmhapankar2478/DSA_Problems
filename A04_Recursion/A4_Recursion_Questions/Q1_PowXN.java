@@ -2,34 +2,30 @@ package A04_Recursion.A4_Recursion_Questions;
 
 public class Q1_PowXN {
     public static void main(String[] args) {
-
+        Q1_PowXN q=new Q1_PowXN();
+        System.out.println(q.myPow(2, 9));
     }
 
     public double myPow(double x, int n) {
-        if (n == 0)
-            return 1.0;
-        if (n < 0) {
-            x = 1 / x;
+        if(n<0){
+            x=1/x;
             if (n == Integer.MIN_VALUE) {
                 x *= x;
                 n = -(n / 2);
             }
             else
-            n = -n;
+                n=-n;    
         }
-        return powRecursive(x, n);
+        if(n==0)
+            return 1;
+        if(n==1)
+            return x;
+        double halfPower=myPow(x, n/2);
+        if(n%2==0)
+            return halfPower*halfPower;
+        else
+            return x*halfPower*halfPower;
+
     }
 
-    public double powRecursive(double x, int n) {
-        if (n == 0)
-            return 1.0;
-
-        double halfPow = powRecursive(x, n / 2);
-        double result = halfPow * halfPow;
-
-        if (n % 2 == 1)
-            result *= x;
-
-        return result;
-    }
 }

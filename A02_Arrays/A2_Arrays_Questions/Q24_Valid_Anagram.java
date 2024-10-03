@@ -2,6 +2,12 @@ package A02_Arrays.A2_Arrays_Questions;
 import java.util.HashMap;
 
 public class Q24_Valid_Anagram {
+    public static void main(String[] args) {
+        Q24_Valid_Anagram q=new Q24_Valid_Anagram();
+        String s="anagram",t="nagaram";
+        boolean ans=q.isAnagram2(s,t);
+        System.out.println(ans);
+    }
     public boolean isAnagram(String s, String t) {
         int n1=s.length();
         int n2=t.length();
