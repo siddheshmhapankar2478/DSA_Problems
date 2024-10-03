@@ -2,6 +2,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Q1_Find",
+      "request": "launch",
+      "mainClass": "A00_Sample_Test.Q1_Find",
+      "projectName": "DSA_By_MdFraz_37de85eb"
+    },
+    {
+      "type": "java",
       "name": "Q1_PowXN",
       "request": "launch",
       "mainClass": "A04_Recursion.A4_Recursion_Questions.Q1_PowXN",
